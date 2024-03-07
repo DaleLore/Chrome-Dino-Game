@@ -26,4 +26,10 @@
     position: relative;
     top: 150px; 
     left: 397px;
+    animation: cactus 1s infinite linear; duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes cactus{
+    0%{left: 397px;}
+    100%{left: -40px;}
 }
